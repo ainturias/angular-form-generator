@@ -5,7 +5,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   selector: 'app-dashboard',
   imports: [MatToolbarModule],
   templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.scss'
+  styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent {
 

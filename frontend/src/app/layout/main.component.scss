@@ -1,0 +1,8 @@
+// Esto es para el menú lateral para que tenga un borde a la derecha
+mat-sidenav {
+    border-right: 1px solid rgba(0, 0, 0, 0.2); /* o el color que prefieras */
+}
+// Esto es la linea sutil que aparece debajo del toolbar
+mat-toolbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* línea sutil */
+}
