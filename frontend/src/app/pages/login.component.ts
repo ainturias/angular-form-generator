@@ -55,7 +55,8 @@ export class LoginComponent implements OnInit {
         if (res.access_token) {
           localStorage.setItem('token', res.access_token);
         }
-        // Redirigir a otra ruta si se desea
+        // Redirigir al usuario a la página de dashboard o donde desees
+        this.router.navigate(['/dashboard']);
       },
       error: (err) => {
         this.errorMessage = 'Usuario o contraseña incorrectos.';
